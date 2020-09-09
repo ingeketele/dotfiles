@@ -12,6 +12,7 @@
 [core]
   pager = less -FRSX
 	editor = '/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl' -n -w
+	excludesfile = /Users/ingeketele/.gitignore_global
 
 [alias]
   co = checkout
@@ -47,5 +48,13 @@
 [branch "master"]
   mergeoptions = --no-edit
 [user]
-	email = ingeketele@gmail.com
+	email = inge.ketele@tv2.no
 	name = Inge Ketele
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
+[commit]
+	template = /Users/ingeketele/.stCommitMsg
