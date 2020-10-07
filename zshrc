@@ -41,4 +41,4 @@ if [ -f '/Users/ingeketele/google-cloud-sdk/completion.zsh.inc' ]; then . '/User
 export ZSH=$HOME/.oh-my-zsh
 
 # Google cloud credentials
-export GOOGLE_APPLICATION_CREDENTIALS=/Users/ingeketele/code/ingeketele/_TV2/_credentials/credentials-gam-api.json
+export GOOGLE_APPLICATION_CREDENTIALS=/Users/ingeketele/code/ingeketele/_TV2/_credentials/fresh-delight-243406-14e3fda50008.json
