@@ -23,6 +23,9 @@ type -a rbenv > /dev/null && eval "$(rbenv init -)"
 # Same for `./node_modules/.bin` and nodejs
 export PATH="./bin:./node_modules/.bin:${PATH}:/usr/local/sbin"
 
+# Adding virtualenv to PATH
+export PATH=/Users/ingeketele/Library/Python/3.7/bin:$PATH
+
 # Store your own aliases in the ~/.aliases file and load the here.
 [[ -f "$HOME/.aliases" ]] && source "$HOME/.aliases"
 
@@ -37,5 +40,5 @@ if [ -f '/Users/ingeketele/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/inge
 if [ -f '/Users/ingeketele/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/ingeketele/google-cloud-sdk/completion.zsh.inc'; fi
 export ZSH=$HOME/.oh-my-zsh
 
-
-
+# Google cloud credentials
+export GOOGLE_CLOUD_CREDENTIALS=/Users/ingeketele/code/ingeketele/_TV2/_credentials/credentials-gam-api.json
