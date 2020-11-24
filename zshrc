@@ -42,3 +42,8 @@ export ZSH=$HOME/.oh-my-zsh
 
 # Google cloud credentials
 export GOOGLE_APPLICATION_CREDENTIALS="/Users/ingeketele/code/ingeketele/_TV2/_credentials/fresh-delight-243406-14e3fda50008.json"
+
+# nvm configuration
+export NVM_DIR="$HOME/.nvm"
+    [ -s "$(brew --prefix)/opt/nvm/nvm.sh" ] && . "$(brew --prefix)/opt/nvm/nvm.sh" # This loads nvm
+    [ -s "$(brew --prefix)/opt/nvm/etc/bash_completion.d/nvm" ] && . "$(brew --prefix)/opt/nvm/etc/bash_completion.d/nvm" # This loads nvm bash_completion
